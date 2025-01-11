@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+p,a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+body{
+    width: 1920px;
+    height: 7812px;
+    /*BUSCAR FONDO CON HOJAS*/
+    background-color: green;
+}
+
+#Cotenido_web{
+    width: 1800px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+header{
+    width: 1800px;
+    max-width: 1800px;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+}
+/* LOGO */
+#Logo{
+    width: 120px;
+    height: 70px;
+
+    border: 1px solid black;
+    border-radius: 10px;
+
+    margin: 10px;
+
+    text-align: center;
+}
+
+#Palabra_Tentaciones{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Palabras_logo{text-transform: uppercase;}
+/*MENU*/
+#Menu{
+    width: 396px;
+    margin: 0 auto;
+    height: 32px;
+    max-height: 40px;
+}
+#Menu > ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Menu > ul > li{
+    list-style: none;
+}
+
+#Menu > ul > li > a{
+    transition: font-size 1s ease;
+    color: black;
+    text-decoration: none;
+}
+
+#Menu > ul > li > a:hover{
+    font-size: 20px;
+    color: red;
+}
