@@ -36,13 +36,13 @@ button{
 
 body{
     width: 1920px;
-    height: 2000px;
+    height: 2500px;
     /*BUSCAR FONDO CON HOJAS*/
 }
 
 #Cotenido_web{
     width: 1800px;
-    height: 2000px;
+    height: 2500px;
     margin: 0 auto;
     background-color: rgba(170, 170, 170, 0.103);
 }
@@ -165,8 +165,8 @@ main h1{
 .Lista_Episodios{
     width: 1800px;
     max-width: 1800px;
-    height: 300px;
-    max-height: 300px;
+    height: 500px;
+    max-height: 500px;
 
     display: flex;
     justify-content: space-between;
@@ -177,10 +177,10 @@ main h1{
 }
 .Episodio{
     transition: all 0.3s ease-in;
-    width: 200px;
-    max-width: 200px;
-    height: 250px;
-    max-height: 250px;
+    width: 300px;
+    max-width: 300px;
+    height: 350px;
+    max-height: 350px;
 
     background-color:white;
     
@@ -188,26 +188,27 @@ main h1{
     border-radius: 5px;
 
     margin-left: 40px;
+    margin-bottom: 50px;
 }
 
 .Episodio:hover{
     box-shadow: 3px 3px;
 
-    height: 260px;
-    max-height: 260px;
+    height: 360px;
+    max-height: 360px;
 }
 
 /*CAMBIAR IMG*/
 .Episodio > a > img{
-    width: 199px;
-    max-width: 231px;
-    height: 131px;
-    max-height: 131px;
+    width: 299px;
+    max-width: 331px;
+    height: 231px;
+    max-height: 231px;
 
     border-radius: 5px;
 }
 
-.Episodio > hr{ width: 199px;} 
+.Episodio > hr{ width: 299px;} 
 
 .Episodio > div{
     display: flex;
