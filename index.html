@@ -10,20 +10,84 @@
 <body>
     <div id="Cotenido_web">
         <header>
-            <div id="Logo"> <p> La <strong class="Palabras_logo">Isla</strong> de las <br><strong id="Palabra_Tentaciones" class="Palabras_logo">Tentaciones</strong> </p></div>
-            <nav id="Menu">
-                <ul>
-                    <li><a href="#"> Episodios </a></li>
-                    <li><a href="#"> Debates </a></li>
-                    <li><a href="#"> Parejas </a></li>
-                    <li><a href="#"> Calendario </a></li>
-                </ul>
-            </nav>
+            <div id="Menu_Principal">
+                <div id="Logo"> <p> La <strong class="Palabras_logo">Isla</strong> de las <br><strong id="Palabra_Tentaciones" class="Palabras_logo">Tentaciones</strong> </p></div>
+                <nav id="Menu">
+                    <ul>
+                        <li><a href="#Episodios"> Episodios </a></li>
+                        <li><a href="#Debates"> Debates </a></li>
+                        <li><a href="#Seccion_Parejas"> Parejas </a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div id="Entrada">
+                <div id="Entrada_Informacion">
+                    <h1>Cada Lunes <br> Nuevo Episodio</h1>
+                    <button> <a href="#Episodios"> Episodios </a></button>
+                </div>
+                <div id="Entrada_Video">
+                    <video width="400" height="300" controls autoplay>
+                        <source src="img/Promo 'La isla de las tentaciones 8' (Telecinco).mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
         </header>
         <main>
+            <h1 id="Episodios"> EPISODIOS </h1>
+            <div class="Lista_Episodios" id="Episodios">
+                <div class="Episodio">
+                    <a href="https://www.telecinco.es/television/a-la-carta/20250107/isla-tentaciones-programa-1-video-completo_18_014415941.html" target="_blank"> <img src="img/Episodios/Ep1.jpeg" alt=""> </a>
+                    <hr>
+                    <div>    
+                        <p>EP.1</p>
+                        <p>06/01/2025</p>
+                    </div>
+                    <button> <a href="https://www.telecinco.es/television/a-la-carta/20250107/isla-tentaciones-programa-1-video-completo_18_014415941.html" target="_blank"> Ver Episodio </a> </button>
+                </div>
+            </div>
 
+            <h1 id="Debates"> DEBATES </h1>
+            <div class="Lista_Episodios">
+                <div class="Episodio">
+                    <a href="https://www.mitele.es/programas-tv/la-isla-de-las-tentaciones/temporada-8/debates/programa-2-40_014433735/player/" target="_blank"> <img src="img/Debates/Debate_1.jpeg" alt=""> </a>
+                    <hr>
+                    <div>
+                        <p>Debate Nº 1</p>
+                        <p>08/01/2025</p>
+                    </div>
+                    <button> <a href="https://www.mitele.es/programas-tv/la-isla-de-las-tentaciones/temporada-8/debates/programa-2-40_014433735/player/" target="_blank"> Ver Debate </a></button>
+                </div>
+            </div>
+
+            <h1 id="Seccion_Parejas"> PAREJAS </h1>
+            <div id="Parejas">
+                <div class="pareja">
+                    <img src="img/Parejas/Alba_Gerrard.jpg" alt="">
+                    <p>Gerrar & Alba</p>
+                </div>
+                <div class="pareja">
+                    <img src="img/Parejas/Eros_Bayan.jpg" alt="">
+                    <p>Fran & Ana</p>
+                </div>
+                <div class="pareja">
+                    <img src="img/Parejas/Eros_Bayan.jpg" alt="">
+                    <p>Eros & Bayan</p>
+                </div>
+                <div class="pareja">
+                    <img src="img/Parejas/Joel_Andrea.webp" alt="">
+                    <p>Joel & Andrea</p>
+                </div>
+                <div class="pareja">
+                    <img src="img/Parejas/Montoya_Ana.webp" alt="">
+                    <p>Montoya & Ana</p>
+                </div>
+            </div>
         </main>
     </div>
-    <footer></footer>
+    <footer>
+        <p>Esto es un Proyecto para Practicar.</p>
+        <a href="#Cotenido_web"> <img src="img/Interacciones/Flecha.png" alt=""></a>
+    </footer>
 </body>
 </html>
