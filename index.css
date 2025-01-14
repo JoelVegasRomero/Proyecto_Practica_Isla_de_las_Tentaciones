@@ -169,7 +169,7 @@ main h1{
     max-height: 500px;
 
     display: flex;
-    justify-content: space-between;
+    gap: 20px;
     align-items: center;
 }
 .Lista_Episodios > h1{
