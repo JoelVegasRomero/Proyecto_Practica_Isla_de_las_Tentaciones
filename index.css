@@ -229,14 +229,13 @@ main h1{
 /*PAREJAS*/
 #Parejas{
     transition: all 1s ease;
-    width: 1800px;
-    max-width: 1800px;
-    height: 400px;
-    max-height: 400px;
+    max-width: 1800px;   
 
     display: flex;
-    justify-content: space-around;
+    gap: 20px;
+    margin-left: 20px;
     align-items: center;
+    overflow-x: scroll;
 }
 .pareja{
     transition: box-shadow 1s ease;
